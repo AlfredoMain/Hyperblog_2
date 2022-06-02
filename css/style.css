@@ -6,3 +6,7 @@
     border: solid black 1px;
     padding: 10px 40px;
 }
+
+#container p{
+    color: black;
+}

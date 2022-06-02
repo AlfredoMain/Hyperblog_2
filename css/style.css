@@ -3,10 +3,22 @@
     color: orange;
     width: 70%;
     margin: 0 auto;
-    border: solid black 1px;
+    
     padding: 10px 40px;
 }
 
-#container p{
+#real_cabecera{
+    align-self: center;
     color: black;
+    border: solid black 1px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(244, 194, 100);
+    border-radius: 10px;
+}
+
+#post{
+    align-self: center;
+    border: solid black 1px;
+    border-radius: 0px 0px 10px 10px;
 }

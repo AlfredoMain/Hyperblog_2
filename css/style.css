@@ -21,3 +21,10 @@
     border: solid black 1px;
     border-radius: 0px 0px 10px 10px;
 }
+
+#container .footer{
+    color: black;
+    background-color: rgb(248, 192, 88);
+    border-radius: 10px;
+    margin-top: 10px;
+}

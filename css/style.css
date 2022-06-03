@@ -8,12 +8,29 @@
 }
 
 #real_cabecera{
-    align-self: center;
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 1fr 1fr 1fr;
     color: black;
     border: solid black 1px;
     padding: 10px;
     background-color: rgb(244, 194, 100);
     border-radius: 10px;
+}
+
+#real_cabecera img{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 70px;
+    height: 60px;
+}
+
+#real_cabecera .titulo{
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 #post{
